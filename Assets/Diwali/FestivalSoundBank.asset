@@ -1,0 +1,245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11c89578adfd7594c8f17f1b7f4e52d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Diwali.FestivalSoundBank
+  sounds:
+  - id: strike
+    clips:
+    - {fileID: 8300000, guid: eedc53774ea9b0d4ba59f493edc57145, type: 3}
+    - {fileID: 8300000, guid: b8f9e672337bdd045a27f4cff1d39eeb, type: 3}
+    volume: 0.9
+    minDistance: 0.35
+    maxDistance: 200
+    reverbSendDb: -6
+    pitch: 1
+    sourceRadius: 0
+  - id: lighter
+    clips:
+    - {fileID: 8300000, guid: b445dff1967dd394292bcd8af2744c5d, type: 3}
+    volume: 0.45
+    minDistance: 0.3
+    maxDistance: 200
+    reverbSendDb: -14
+    pitch: 1
+    sourceRadius: 0
+  - id: ignite
+    clips:
+    - {fileID: 8300000, guid: 6746d646cd790dd48a8ccfc56419cce0, type: 3}
+    - {fileID: 8300000, guid: 245ba44f55996854a9c2deae8828256f, type: 3}
+    volume: 0.9
+    minDistance: 0.5
+    maxDistance: 200
+    reverbSendDb: -6
+    pitch: 1
+    sourceRadius: 0
+  - id: flame
+    clips:
+    - {fileID: 8300000, guid: 66f0fe32712b18a40b3d0d443f731f73, type: 3}
+    volume: 0.5
+    minDistance: 0.3
+    maxDistance: 200
+    reverbSendDb: -12
+    pitch: 1
+    sourceRadius: 0
+  - id: fuse
+    clips:
+    - {fileID: 8300000, guid: 366af001681745c448183695f4a828c7, type: 3}
+    volume: 0.8
+    minDistance: 0.5
+    maxDistance: 200
+    reverbSendDb: -6
+    pitch: 1
+    sourceRadius: 0
+  - id: sparkler
+    clips:
+    - {fileID: 8300000, guid: 31300ab83a15bbc469abfe80d0f37f8f, type: 3}
+    volume: 0.85
+    minDistance: 0.45
+    maxDistance: 200
+    reverbSendDb: -6
+    pitch: 1
+    sourceRadius: 0
+  - id: anar
+    clips:
+    - {fileID: 8300000, guid: 6bdc55fd5a91b0a44bf5bd385562dd24, type: 3}
+    volume: 1
+    minDistance: 0.9
+    maxDistance: 200
+    reverbSendDb: -3
+    pitch: 1
+    sourceRadius: 0
+  - id: chakri
+    clips:
+    - {fileID: 8300000, guid: 91165a2c34bdbe748a206dce4a41be54, type: 3}
+    volume: 1
+    minDistance: 0.8
+    maxDistance: 200
+    reverbSendDb: -3
+    pitch: 1
+    sourceRadius: 0
+  - id: butterfly
+    clips:
+    - {fileID: 8300000, guid: 6b575e7848f9c3348b961de44c9235f6, type: 3}
+    - {fileID: 8300000, guid: 5e4fd5cc1aa8ef24395f9be3d4214632, type: 3}
+    volume: 0.9
+    minDistance: 0.65
+    maxDistance: 200
+    reverbSendDb: -6
+    pitch: 1
+    sourceRadius: 0
+  - id: pop
+    clips:
+    - {fileID: 8300000, guid: bad6dde5a3ea978448b6e0195ec60d25, type: 3}
+    - {fileID: 8300000, guid: 4312595ff2461c44a94d85851b1a495f, type: 3}
+    - {fileID: 8300000, guid: 26e5fd65102205d4e82dde5eb5b98228, type: 3}
+    - {fileID: 8300000, guid: 86674249efaf31648b306e02ea45cbc5, type: 3}
+    volume: 1
+    minDistance: 1.2
+    maxDistance: 200
+    reverbSendDb: 0
+    pitch: 1
+    sourceRadius: 0
+  - id: cap
+    clips:
+    - {fileID: 8300000, guid: 4fb0828d73979184b99aa25ba9574565, type: 3}
+    - {fileID: 8300000, guid: e86f42e03f415c243881fbcb33a234b2, type: 3}
+    volume: 1
+    minDistance: 1
+    maxDistance: 200
+    reverbSendDb: -3
+    pitch: 1
+    sourceRadius: 0
+  - id: snap
+    clips:
+    - {fileID: 8300000, guid: bad6dde5a3ea978448b6e0195ec60d25, type: 3}
+    - {fileID: 8300000, guid: 4312595ff2461c44a94d85851b1a495f, type: 3}
+    - {fileID: 8300000, guid: 26e5fd65102205d4e82dde5eb5b98228, type: 3}
+    volume: 0.9
+    minDistance: 1.2
+    maxDistance: 200
+    reverbSendDb: -3
+    pitch: 1.45
+    sourceRadius: 0
+  - id: bomb
+    clips:
+    - {fileID: 8300000, guid: 73139b6927801a9489178e8903e11c4c, type: 3}
+    volume: 1
+    minDistance: 2.4
+    maxDistance: 200
+    reverbSendDb: -9
+    pitch: 1
+    sourceRadius: 0
+  - id: mortar
+    clips:
+    - {fileID: 8300000, guid: 7ad9dcf013307144e91f2061e29540c1, type: 3}
+    - {fileID: 8300000, guid: 55f601842774d23419d81e768fe09308, type: 3}
+    volume: 1
+    minDistance: 1.4
+    maxDistance: 200
+    reverbSendDb: 0
+    pitch: 1
+    sourceRadius: 0
+  - id: launch
+    clips:
+    - {fileID: 8300000, guid: 7ad9dcf013307144e91f2061e29540c1, type: 3}
+    - {fileID: 8300000, guid: 55f601842774d23419d81e768fe09308, type: 3}
+    volume: 0.9
+    minDistance: 12
+    maxDistance: 200
+    reverbSendDb: -6
+    pitch: 1
+    sourceRadius: 0
+  - id: rocket_motor
+    clips:
+    - {fileID: 8300000, guid: d48a2f6a8bf20b14cb22901d394453d6, type: 3}
+    - {fileID: 8300000, guid: 5491845f14d3b2b4395819beadc73fd1, type: 3}
+    volume: 1
+    minDistance: 1.4
+    maxDistance: 200
+    reverbSendDb: -3
+    pitch: 1
+    sourceRadius: 0
+  - id: whistle
+    clips:
+    - {fileID: 8300000, guid: d2384ff0d2ba4a949a4960b929cbb023, type: 3}
+    volume: 0.85
+    minDistance: 3
+    maxDistance: 200
+    reverbSendDb: -3
+    pitch: 1
+    sourceRadius: 0
+  - id: burst
+    clips:
+    - {fileID: 8300000, guid: bf2ad8977e6cdc84a993b51c3bf2cfaf, type: 3}
+    - {fileID: 8300000, guid: 1c39384161b9e9f4287ed99686fbf88c, type: 3}
+    - {fileID: 8300000, guid: a2b2364d3f1bdd84f90af0d983d87cef, type: 3}
+    volume: 1
+    minDistance: 34
+    maxDistance: 200
+    reverbSendDb: -9
+    pitch: 1
+    sourceRadius: 6
+  - id: crackle
+    clips:
+    - {fileID: 8300000, guid: 1a642aea7eb0e6d468f1f6cf5ea733d2, type: 3}
+    volume: 0.9
+    minDistance: 28
+    maxDistance: 200
+    reverbSendDb: -12
+    pitch: 1
+    sourceRadius: 8
+  - id: thunder
+    clips:
+    - {fileID: 8300000, guid: ece79293bee70374e932618b20535c90, type: 3}
+    volume: 1
+    minDistance: 40
+    maxDistance: 200
+    reverbSendDb: -9
+    pitch: 1
+    sourceRadius: 12
+  - id: select
+    clips:
+    - {fileID: 8300000, guid: 626ee729ae0e40d09b6ed8d180829f6d, type: 3}
+    volume: 0.6
+    minDistance: 0.6
+    maxDistance: 200
+    reverbSendDb: -60
+    pitch: 1
+    sourceRadius: 0
+  - id: lift
+    clips:
+    - {fileID: 8300000, guid: 7638f83beefa42c7acbfa0fc8bcc1db2, type: 3}
+    volume: 0.45
+    minDistance: 0.6
+    maxDistance: 200
+    reverbSendDb: -60
+    pitch: 1
+    sourceRadius: 0
+  - id: place
+    clips:
+    - {fileID: 8300000, guid: 3d649f20063c6f641be47fe9394d76e5, type: 3}
+    volume: 1
+    minDistance: 0.7
+    maxDistance: 200
+    reverbSendDb: -9
+    pitch: 1
+    sourceRadius: 0
+  - id: night
+    clips:
+    - {fileID: 8300000, guid: 74f9598741bb9494294f3b59a73fec9f, type: 3}
+    volume: 0.9
+    minDistance: 7
+    maxDistance: 200
+    reverbSendDb: -60
+    pitch: 1
+    sourceRadius: 5

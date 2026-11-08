@@ -1,0 +1,61 @@
+# Diwali Utsav - line endings and diff/merge handling for a Unity project.
+
+# Store text with LF line endings; check out with the platform's default.
+* text=auto
+
+# Unity text-serialised assets: always LF, as Unity writes them.
+# merge=unityyamlmerge uses Unity Smart Merge when it is configured
+# (see "Contributing" in README.md); without it, Git falls back to a text merge.
+*.unity          text eol=lf merge=unityyamlmerge
+*.prefab         text eol=lf merge=unityyamlmerge
+*.asset          text eol=lf merge=unityyamlmerge
+*.mat            text eol=lf merge=unityyamlmerge
+*.anim           text eol=lf merge=unityyamlmerge
+*.controller     text eol=lf merge=unityyamlmerge
+*.renderTexture  text eol=lf merge=unityyamlmerge
+*.physicMaterial text eol=lf merge=unityyamlmerge
+*.meta           text eol=lf
+*.shadergraph    text eol=lf
+*.inputactions   text eol=lf
+
+# Code and documents
+*.cs     text diff=csharp
+*.shader text
+*.hlsl   text
+*.cginc  text
+*.json   text
+*.md     text
+*.txt    text
+*.xml    text
+*.svg    text
+
+# Binary media, models and packages: never diff or convert.
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.tga    binary
+*.psd    binary
+*.exr    binary
+*.hdr    binary
+*.wav    binary
+*.mp3    binary
+*.ogg    binary
+*.aif    binary
+*.mp4    binary
+*.mov    binary
+*.webm   binary
+*.fbx    binary
+*.obj    binary
+*.glb    binary
+*.blend  binary
+*.ttf    binary
+*.otf    binary
+*.apk    binary
+*.aab    binary
+*.aar    binary
+*.jar    binary
+*.so     binary
+*.dll    binary
+*.zip    binary
+*.unitypackage binary

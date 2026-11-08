@@ -1,0 +1,87 @@
+# Diwali Utsav - Unity 6 project for Meta Quest 3
+# Source, assets and settings are tracked. Everything Unity, the IDE or the
+# editor tools can regenerate is not. Build outputs ship through GitHub Releases.
+
+# Unity caches and per-user state
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Aa]sset[Cc]ache/
+
+# Build outputs (the APK is attached to each GitHub Release instead)
+/[Bb]uild/
+/[Bb]uilds/
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Android, Gradle, Burst and XR intermediates
+.gradle/
+.utmp/
+*_BurstDebugInformation_DoNotShip/
+/[Aa]ssets/[Xx][Rr]/APILayers~/
+
+# Output written by the project's editor tools
+/Verification/
+/Recordings/
+/Tools/diwali-command.txt
+/[Aa]ssets/[Rr]esources/[Pp]erformance[Tt]est[Rr]un*.json*
+/[Aa]ssets/[Ss]treaming[Aa]ssets/[Rr]untime[Aa]ction[Bb]indings.json*
+
+# IDE files Unity regenerates
+.vs/
+.idea/
+.vscode/
+.consulo/
+ExportedObj/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash reports, profiler captures and logs
+sysinfo.txt
+*.stackdump
+crashlytics-build.properties
+*.raw
+*.profiler
+*.log
+
+# Scripting caches
+__pycache__/
+*.py[cod]
+
+# Editor and merge backups
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Dd]esktop.ini
+[Tt]humbs.db

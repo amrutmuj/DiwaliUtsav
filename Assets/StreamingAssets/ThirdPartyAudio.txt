@@ -1,0 +1,65 @@
+Diwali Utsav - recorded audio credits
+
+Every recording below is CC0, CC BY 3.0 or publisher-designated Public Domain.
+The music "A Little Light", the launch jingle and the remaining interface, flame,
+lighter, anar, chakri and phuljhadi sounds are original to this project.
+
+"Firecracker with wick #4" by Joseph SARDIN, LaSonotheque.org:
+https://lasonotheque.org/petard-a-meche-4-s1140.html
+CC0 1.0 Universal: https://creativecommons.org/publicdomain/zero/1.0/
+Changes: excerpt 0.0456-1.494 s with 2 ms before the attack, gain 0.85,
+sub-millisecond attack de-click and final 60 ms fade. Output is 1.448 seconds,
+mono 48 kHz PCM. Used alone for the bomb report, synchronized to the burst flash.
+
+"Interface Sounds - click_001" by Kenney (www.kenney.nl):
+https://kenney.nl/assets/interface-sounds
+Download mirror: https://opengameart.org/content/interface-sounds
+Creative Commons Zero 1.0: https://creativecommons.org/publicdomain/zero/1.0/
+Changes: mono 48 kHz PCM conversion, fixed gain 0.32 and short tail fade.
+Used as the short, dry cracker selection click; no pitch or reverb added.
+
+"Bottle Rocket" by Mike Koenig, SoundBible:
+https://soundbible.com/709-Bottle-Rocket.html
+Creative Commons Attribution 3.0 Unported:
+https://creativecommons.org/licenses/by/3.0/
+Changes: trimmed, downmixed to mono, resampled to 48 kHz, filtered, gain adjusted
+and faded. Used for the 0.8-second rocket motor and the motor layer of the
+whoosh takes.
+
+"Fire Crackers" by Mike Koenig, SoundBible:
+https://soundbible.com/711-Fire-Crackers.html
+Creative Commons Attribution 3.0 Unported:
+https://creativecommons.org/licenses/by/3.0/
+Changes: four short excerpts, mono conversion, resampling, filtering, gain and fades.
+Used for ladi reports and the Hand Popper snap.
+
+Additional sounds: Joseph SARDIN - BigSoundBank.com / LaSonotheque.org
+Firecracker with wick #2, #3; Fireworks #1; Slow wick 1; Firecracker gun #1.
+https://bigsoundbank.com/licenses.html
+https://lasonotheque.org/petard-a-meche-2-s1138.html
+https://lasonotheque.org/petard-a-meche-3-s1139.html
+https://bigsoundbank.com/fireworks-s0831.html
+https://bigsoundbank.com/slow-wick-1--s1306.html
+https://bigsoundbank.com/firecracker-gun-1-s1997.html
+CC0 1.0 Universal: https://creativecommons.org/publicdomain/zero/1.0/
+Changes: excerpts, mono conversion, resampling, filtering, gain, fades, loop joins
+and layering. Used for ring caps, launch thumps, whistles, sky bursts,
+burning fuses and distant ambience.
+
+"Firecrackers Going Off" and "Fireworks Finale" by Stephan, SoundBible:
+https://soundbible.com/691-Firecrackers-Going-Off.html
+https://soundbible.com/693-Fireworks-Finale.html
+Publisher designates these recordings Public Domain.
+Changes: excerpts, mono conversion, resampling, filtering, gain and fades.
+Used for a sky burst, crackling tail and finale barrage.
+
+"Ground Bloom Spinner 1.wav" and "Ground Bloom Spinner 2.wav" by iliyabylich04:
+https://freesound.org/people/iliyabylich04/sounds/651334/
+https://freesound.org/people/iliyabylich04/sounds/651333/
+CC0 1.0 Universal: https://creativecommons.org/publicdomain/zero/1.0/
+Source quality: public high-quality MP3 previews of the published recordings;
+the source is lossy even though the edited assets are imported as PCM.
+Changes: trimming, mono conversion, resampling, filtering, rate/pitch changes,
+gain and loop joins. Used for the butterfly.
+
+No endorsement by any original creator is implied.

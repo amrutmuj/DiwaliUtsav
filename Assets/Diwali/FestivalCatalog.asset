@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c700860c38f5d89488dc04fda9641ffd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Diwali.FestivalCatalog
+  entries:
+  - id: 0
+    title: Lighter
+    description: Take to light. Hold to carry; release to drop
+    tier: 0
+    held: 1
+    footprintRadius: 0
+    prefab: {fileID: 0}
+  - id: 1
+    title: Diya
+    description: A small lamp to light and leave burning
+    tier: 0
+    held: 0
+    footprintRadius: 0.1
+    prefab: {fileID: 6151417382784045723, guid: 76914f87c9c6a7441b58ea242a666c98, type: 3}
+  - id: 2
+    title: Phuljhadi
+    description: Hold it and draw with sparks
+    tier: 0
+    held: 1
+    footprintRadius: 0
+    prefab: {fileID: 0}
+  - id: 3
+    title: Rangoli
+    description: Colour for your floor
+    tier: 0
+    held: 0
+    footprintRadius: 0.46
+    prefab: {fileID: 8912802175137884594, guid: 9ea2950abf4c0e44491aebf5e6b11618, type: 3}
+  - id: 4
+    title: Anar
+    description: A tall fountain of gold
+    tier: 1
+    held: 0
+    footprintRadius: 0.08
+    prefab: {fileID: 1843806873098583994, guid: 6649924b87e0c834aab7c0f8f571dfb4, type: 3}
+  - id: 5
+    title: Flower Pot
+    description: A fountain that turns from silver to green
+    tier: 1
+    held: 0
+    footprintRadius: 0.07
+    prefab: {fileID: 98746566858942083, guid: 887c7fd9b70c73544bea157a0feb6163, type: 3}
+  - id: 6
+    title: Chakri
+    description: Spins and skitters across the floor
+    tier: 1
+    held: 0
+    footprintRadius: 0.09
+    prefab: {fileID: 4610956623625852957, guid: 620499a7fbf383e48840ebbb393a4a18, type: 3}
+  - id: 7
+    title: Small Ladi
+    description: A tight string that rattles and jumps
+    tier: 1
+    held: 0
+    footprintRadius: 0.17
+    prefab: {fileID: 6474909785982696300, guid: 49af3e64f96da964eb84ce439892a0c8, type: 3}
+  - id: 15
+    title: Big Ladi
+    description: A long string, loud and full of smoke
+    tier: 1
+    held: 0
+    footprintRadius: 0.42
+    prefab: {fileID: 1504295898040676616, guid: c13ae328d6d73724486c1cc634ffdaba, type: 3}
+  - id: 8
+    title: Bomb
+    description: A sharp report and a billowing plume at the charge
+    tier: 1
+    held: 0
+    footprintRadius: 0.07
+    prefab: {fileID: 5265434825627974983, guid: bde35aa6488006144bb67a880964f433, type: 3}
+  - id: 9
+    title: Ring Caps
+    description: A ring of tiny snaps
+    tier: 1
+    held: 0
+    footprintRadius: 0.08
+    prefab: {fileID: 3169116483987777074, guid: 5957d6403a092644a87359c65508afe8, type: 3}
+  - id: 10
+    title: Rocket
+    description: Climbs and bursts overhead
+    tier: 2
+    held: 0
+    footprintRadius: 0.14
+    prefab: {fileID: 5379407627497904642, guid: a6aa94adb3b23a94bb17c725148030fe, type: 3}
+  - id: 11
+    title: Sky Shot
+    description: One big shell in the open sky
+    tier: 2
+    held: 0
+    footprintRadius: 0.08
+    prefab: {fileID: 2334272027862582956, guid: 200a130b6dcf63b40a4cdeb7fb0836f9, type: 3}
+  - id: 12
+    title: 12 Shot
+    description: Twelve golden shells rising straight up
+    tier: 2
+    held: 0
+    footprintRadius: 0.11
+    prefab: {fileID: 7901544103347731837, guid: 67d66a07d2b2d954b9fe4efbb61fa603, type: 3}
+  - id: 13
+    title: 15 Shot
+    description: Fifteen shells in every colour
+    tier: 2
+    held: 0
+    footprintRadius: 0.12
+    prefab: {fileID: 4463517979175818704, guid: 138d6857b4c56da45b4431ed4551c75a, type: 3}
+  - id: 16
+    title: Butterfly
+    description: Spins, flutters and lifts with coloured sparks
+    tier: 1
+    held: 0
+    footprintRadius: 0.1
+    prefab: {fileID: 3317324723248218315, guid: 8819b9142beda02499aa8f5cb1a82bd4, type: 3}
+  - id: 17
+    title: Hand Popper
+    description: Grab and throw it; it snaps on impact
+    tier: 0
+    held: 0
+    footprintRadius: 0.04
+    prefab: {fileID: 8628189486368597120, guid: f6e53c1ce08208941be924f4bd265e3a, type: 3}
+  - id: 14
+    title: Grand Show
+    description: A full show across your sky
+    tier: 2
+    held: 0
+    footprintRadius: 0
+    prefab: {fileID: 0}

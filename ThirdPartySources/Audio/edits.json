@@ -1,0 +1,450 @@
+{
+  "description": "Recorded fireworks. Bomb uses the user-selected Fringster Sutli Bomb burst; approved original sounds are preserved.",
+  "sample_rate": 48000,
+  "channels": 1,
+  "bit_depth": 16,
+  "edits": [
+    {
+      "output": "bomb.wav",
+      "layers": [
+        {
+          "source": "dragon_4",
+          "start_seconds": 0.0456,
+          "end_seconds": 1.494,
+          "filters": "atrim=start=0.0456:end=1.494,asetpts=PTS-STARTPTS,volume=0.85,afade=t=in:d=0.00025,afade=t=out:st=1.3884:d=0.06"
+        }
+      ],
+      "peak_ceiling": 0.9,
+      "fade_out": 0.06,
+      "loop_crossfade": 0,
+      "target_rms_db": null,
+      "seconds": 1.448,
+      "reproduction_tool": "ffmpeg -i dragon_4.wav -af <ffmpeg_filter> -ac 1 -ar 48000 -c:a pcm_s16le bomb.wav",
+      "ffmpeg_filter": "atrim=start=0.0456:end=1.494,asetpts=PTS-STARTPTS,volume=0.85,afade=t=in:d=0.00025,afade=t=out:st=1.3884:d=0.06",
+      "sha256": "aec3d60dc13d974b223b201e8a8f5f8a07ec56d50c5e1ac68140b32467613e19"
+    },
+    {
+      "output": "pop_0.wav",
+      "layers": [
+        {
+          "source": "firecrackers",
+          "start_seconds": 0.185,
+          "end_seconds": 0.43,
+          "filters": "highpass=f=70",
+          "trim_to_attack_seconds": 0.007479166666666667
+        }
+      ],
+      "peak": 0.7,
+      "fade_out": 0.018,
+      "loop_crossfade": 0,
+      "target_rms_db": null,
+      "seconds": 0.23752083333333332,
+      "sha256": "9c86c2db35810b73bce8656b283e4340216538867b2ccdc6c8ef2e0f622dbe0b"
+    },
+    {
+      "output": "pop_1.wav",
+      "layers": [
+        {
+          "source": "firecrackers",
+          "start_seconds": 0.48,
+          "end_seconds": 0.578,
+          "filters": "highpass=f=70",
+          "trim_to_attack_seconds": 0.006229166666666667
+        }
+      ],
+      "peak": 0.7,
+      "fade_out": 0.018,
+      "loop_crossfade": 0,
+      "target_rms_db": null,
+      "seconds": 0.09177083333333333,
+      "sha256": "0cc542e2aeca56ed32701da3213002a26d6344a64d786fd776b3ded0715c8101"
+    },
+    {
+      "output": "pop_2.wav",
+      "layers": [
+        {
+          "source": "firecrackers",
+          "start_seconds": 0.805,
+          "end_seconds": 0.915,
+          "filters": "highpass=f=70",
+          "trim_to_attack_seconds": 0.006208333333333333
+        }
+      ],
+      "peak": 0.7,
+      "fade_out": 0.018,
+      "loop_crossfade": 0,
+      "target_rms_db": null,
+      "seconds": 0.10379166666666667,
+      "sha256": "5145b755164c6c345365634dca2b8de7972494985b95ff411acb4de62835d1c7"
+    },
+    {
+      "output": "pop_3.wav",
+      "layers": [
+        {
+          "source": "firecrackers",
+          "start_seconds": 1.27,
+          "end_seconds": 1.75,
+          "filters": "highpass=f=70",
+          "trim_to_attack_seconds": 0.005
+        }
+      ],
+      "peak": 0.7,
+      "fade_out": 0.018,
+      "loop_crossfade": 0,
+      "target_rms_db": null,
+      "seconds": 0.475,
+      "sha256": "ad41c9f3930171ce89440ccc31c81c0ab11c237bf596f07a07f1e3200240e831"
+    },
+    {
+      "output": "cap_0.wav",
+      "layers": [
+        {
+          "source": "cap_gun",
+          "start_seconds": 0,
+          "end_seconds": 0.33,
+          "filters": "",
+          "trim_to_attack_seconds": 0.0356875
+        }
+      ],
+      "peak": 0.48,
+      "fade_out": 0.06,
+      "loop_crossfade": 0,
+      "target_rms_db": null,
+      "seconds": 0.2943125,
+      "sha256": "39aa162f5cfaebbf75ae39060f095721a24230b542cbe61365673d5e462244ca"
+    },
+    {
+      "output": "cap_1.wav",
+      "layers": [
+        {
+          "source": "dragon_2",
+          "start_seconds": 0,
+          "end_seconds": 0.48,
+          "filters": "highpass=f=650",
+          "trim_to_attack_seconds": 0.023229166666666665
+        }
+      ],
+      "peak": 0.43,
+      "fade_out": 0.06,
+      "loop_crossfade": 0,
+      "target_rms_db": null,
+      "seconds": 0.45677083333333335,
+      "sha256": "936af8db39524783db90bd9259b1091f53cd92336ef9cdad3d81f7d341c702ec"
+    },
+    {
+      "output": "cap_2.wav",
+      "layers": [
+        {
+          "source": "dragon_3",
+          "start_seconds": 0,
+          "end_seconds": 0.48,
+          "filters": "highpass=f=800",
+          "trim_to_attack_seconds": 0.0313125
+        }
+      ],
+      "peak": 0.4,
+      "fade_out": 0.06,
+      "loop_crossfade": 0,
+      "target_rms_db": null,
+      "seconds": 0.4486875,
+      "sha256": "0e0c85aa4212ae359b9eb250ad8a8a75300207e8cdcc3cb9d9e0645a520888c8"
+    },
+    {
+      "output": "mortar_0.wav",
+      "layers": [
+        {
+          "source": "display_spain",
+          "start_seconds": 3.56,
+          "end_seconds": 4.0,
+          "filters": "highpass=f=55,lowpass=f=3000",
+          "trim_to_attack_seconds": 0.12597916666666667
+        }
+      ],
+      "peak": 0.7,
+      "fade_out": 0.06,
+      "loop_crossfade": 0,
+      "target_rms_db": null,
+      "seconds": 0.31402083333333336,
+      "sha256": "8ee6458d2e9bc77dc94fa9621a35bbc6b58a8daae236da66d6778d684f90662c"
+    },
+    {
+      "output": "mortar_1.wav",
+      "layers": [
+        {
+          "source": "display_spain",
+          "start_seconds": 8.79,
+          "end_seconds": 9.22,
+          "filters": "highpass=f=55,lowpass=f=3000",
+          "trim_to_attack_seconds": 0.075875
+        }
+      ],
+      "peak": 0.7,
+      "fade_out": 0.06,
+      "loop_crossfade": 0,
+      "target_rms_db": null,
+      "seconds": 0.354125,
+      "sha256": "2b0417f9aaba4d61955cccd04b4439d4da16655e065b8c10d967dcc9999a8346"
+    },
+    {
+      "output": "whoosh_0.wav",
+      "layers": [
+        {
+          "source": "bottle_rocket",
+          "start_seconds": 0.12,
+          "end_seconds": 1.08,
+          "filters": "highpass=f=90,lowpass=f=11000",
+          "gain_peak": 0.75
+        },
+        {
+          "source": "display_spain",
+          "start_seconds": 26.97,
+          "end_seconds": 29.07,
+          "filters": "highpass=f=1600,lowpass=f=6500",
+          "gain_peak": 0.3,
+          "delay_seconds": 0.1
+        }
+      ],
+      "peak": 0.72,
+      "fade_out": 0.14,
+      "loop_crossfade": 0,
+      "target_rms_db": null,
+      "seconds": 2.2999791666666667,
+      "sha256": "61af667fd01287f57418d766e6b5967c755b9823af31dadd080ee5f12ffa58f5"
+    },
+    {
+      "output": "whoosh_1.wav",
+      "layers": [
+        {
+          "source": "bottle_rocket",
+          "start_seconds": 0.12,
+          "end_seconds": 1.08,
+          "filters": "highpass=f=90,lowpass=f=11000",
+          "gain_peak": 0.75
+        },
+        {
+          "source": "display_spain",
+          "start_seconds": 12.65,
+          "end_seconds": 14.75,
+          "filters": "highpass=f=1600,lowpass=f=6500",
+          "gain_peak": 0.3,
+          "delay_seconds": 0.1
+        }
+      ],
+      "peak": 0.72,
+      "fade_out": 0.14,
+      "loop_crossfade": 0,
+      "target_rms_db": null,
+      "seconds": 2.2999791666666667,
+      "sha256": "f9577ff7f482440a37bbe63dc001d30931b6e2ec7cac3645ffbaf4c0973a809a"
+    },
+    {
+      "output": "whistle.wav",
+      "layers": [
+        {
+          "source": "display_spain",
+          "start_seconds": 26.97,
+          "end_seconds": 29.07,
+          "filters": "highpass=f=1600,lowpass=f=6500"
+        }
+      ],
+      "peak": 0.52,
+      "fade_out": 0.12,
+      "loop_crossfade": 0,
+      "target_rms_db": null,
+      "seconds": 2.1,
+      "sha256": "ddd7f971ba8dd03bfa598b83ce71d98677a7dc4740b17c2541327ca654b7659e"
+    },
+    {
+      "output": "burst_0.wav",
+      "layers": [
+        {
+          "source": "fireworks",
+          "start_seconds": 0.45,
+          "end_seconds": 1.78,
+          "filters": "highpass=f=45",
+          "trim_to_attack_seconds": 0.023770833333333335
+        }
+      ],
+      "peak": 0.82,
+      "fade_out": 0.18,
+      "loop_crossfade": 0,
+      "target_rms_db": null,
+      "seconds": 1.3062291666666668,
+      "sha256": "e77edded51404a334856ceddb7073a1b75fde02e07f21764bf562367a7e403a1"
+    },
+    {
+      "output": "burst_1.wav",
+      "layers": [
+        {
+          "source": "display_spain",
+          "start_seconds": 4.16,
+          "end_seconds": 5.76,
+          "filters": "highpass=f=45,lowpass=f=9500",
+          "trim_to_attack_seconds": 0.23508333333333334
+        }
+      ],
+      "peak": 0.78,
+      "fade_out": 0.2,
+      "loop_crossfade": 0,
+      "target_rms_db": null,
+      "seconds": 1.3649166666666666,
+      "sha256": "63d5eebf1f9e79b1e60f5c06f8b4fa63c859b9f85e696a21abb330e63c2944df"
+    },
+    {
+      "output": "burst_2.wav",
+      "layers": [
+        {
+          "source": "display_spain",
+          "start_seconds": 15.48,
+          "end_seconds": 17.08,
+          "filters": "highpass=f=45,lowpass=f=9500",
+          "trim_to_attack_seconds": 0.3189166666666667
+        }
+      ],
+      "peak": 0.78,
+      "fade_out": 0.2,
+      "loop_crossfade": 0,
+      "target_rms_db": null,
+      "seconds": 1.2810833333333334,
+      "sha256": "48928db40ab1667729e1c9d06a25d756d341e9c7385dbe5d70e5afb7687468ae"
+    },
+    {
+      "output": "crackle.wav",
+      "layers": [
+        {
+          "source": "fireworks",
+          "start_seconds": 3.3,
+          "end_seconds": 6.3,
+          "filters": "highpass=f=1200,lowpass=f=10000"
+        }
+      ],
+      "peak": 0.46,
+      "fade_out": 0.3,
+      "loop_crossfade": 0,
+      "target_rms_db": null,
+      "seconds": 3.0,
+      "sha256": "2f88a4ba7dd009e577688f97ed8ca803da9adae095703ffc98d618ad91fbfa39"
+    },
+    {
+      "output": "rolling_thunder.wav",
+      "layers": [
+        {
+          "source": "finale",
+          "start_seconds": 5.9,
+          "end_seconds": 12.4,
+          "filters": "highpass=f=40,lowpass=f=6500"
+        }
+      ],
+      "peak": 0.74,
+      "fade_out": 1.2,
+      "loop_crossfade": 0,
+      "target_rms_db": null,
+      "seconds": 6.5,
+      "sha256": "cceb34d72c879599cca9c40e202d61333da05cc68918aabdf116951061922f49"
+    },
+    {
+      "output": "fuse_loop.wav",
+      "layers": [
+        {
+          "source": "wick",
+          "start_seconds": 2.2,
+          "end_seconds": 8.0,
+          "filters": "highpass=f=150"
+        }
+      ],
+      "peak": 0.4,
+      "fade_out": 0.06,
+      "loop_crossfade": 0.15,
+      "target_rms_db": null,
+      "seconds": 5.65,
+      "sha256": "af3c5fb62c1b183c1dd379911afdbd1381fe1481296b8ea11c7826f970ec274e"
+    },
+    {
+      "output": "night_bed.wav",
+      "layers": [
+        {
+          "source": "display_spain",
+          "start_seconds": 42,
+          "end_seconds": 75,
+          "filters": "highpass=f=70,lowpass=f=1800"
+        }
+      ],
+      "peak": 0.16,
+      "fade_out": 0.06,
+      "loop_crossfade": 1,
+      "target_rms_db": -31,
+      "seconds": 32.0,
+      "sha256": "1b7976032134feb49943788de93b86731970f76fcf54723755c0112b3613b097"
+    },
+    {
+      "output": "butterfly_loop.wav",
+      "layers": [
+        {
+          "source": "ground_spinner_1",
+          "start_seconds": 2.1,
+          "end_seconds": 6.0,
+          "filters": "atrim=start=2.1:end=6.0,asetpts=PTS-STARTPTS,aresample=48000,asetrate=55200,aresample=48000,highpass=f=850,lowpass=f=11500",
+          "gain_peak": 0.62
+        }
+      ],
+      "peak": 0.6,
+      "fade_out": 0.06,
+      "loop_crossfade": 0.18,
+      "target_rms_db": -19,
+      "seconds": 3.211291666666667,
+      "sha256": "dd1b4463c4885a9c0dbb88311880af095e5fff3976852fba4fe8a48e1eb6e4da"
+    },
+    {
+      "output": "butterfly_loop_1.wav",
+      "layers": [
+        {
+          "source": "ground_spinner_2",
+          "start_seconds": 0.85,
+          "end_seconds": 4.9,
+          "filters": "atrim=start=0.85:end=4.9,asetpts=PTS-STARTPTS,aresample=48000,asetrate=55200,aresample=48000,highpass=f=850,lowpass=f=11500",
+          "gain_peak": 0.62
+        }
+      ],
+      "peak": 0.6,
+      "fade_out": 0.06,
+      "loop_crossfade": 0.18,
+      "target_rms_db": -19,
+      "seconds": 3.34175,
+      "sha256": "ea8729d191f2e1323bd6963616c58811c23c36f57a8b9fb486be55c2a3d2f411"
+    },
+    {
+      "output": "rocket_motor_0.wav",
+      "layers": [
+        {
+          "source": "bottle_rocket",
+          "start_seconds": 0.12,
+          "end_seconds": 0.92,
+          "filters": "highpass=f=90,lowpass=f=10500"
+        }
+      ],
+      "peak": 0.72,
+      "fade_out": 0.06,
+      "loop_crossfade": 0,
+      "target_rms_db": null,
+      "seconds": 0.8,
+      "sha256": "778ff3eb0ba60cd6973df4ce9a137507c7471e8778f97bc68213f185e2acdb65"
+    },
+    {
+      "output": "rocket_motor_1.wav",
+      "layers": [
+        {
+          "source": "bottle_rocket",
+          "start_seconds": 0.12,
+          "end_seconds": 0.92,
+          "filters": "highpass=f=90,lowpass=f=9200"
+        }
+      ],
+      "peak": 0.72,
+      "fade_out": 0.06,
+      "loop_crossfade": 0,
+      "target_rms_db": null,
+      "seconds": 0.8,
+      "sha256": "b2a9d2441f8ac40c05e946d39d415bbb3a45e542593e3b64af6d8be2ce63f747"
+    }
+  ]
+}
