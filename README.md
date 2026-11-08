@@ -6,7 +6,9 @@
 
 Place and light an anar, spin a chakri, draw with a phuljhadi, set off a ladi, launch a rocket and finish with a Grand Show. Everything works with your hands: pinch, grab, place, light, celebrate.
 
-▶ **[Watch the 3-minute first-person walkthrough on YouTube](https://youtu.be/ayYrKow6v7U)**, or download the trailer from the [latest release](../../releases/latest).
+TRAILER_VIDEO_URL
+
+*The trailer: Diwali Utsav played in a real courtyard. For the full 3-minute first-person walkthrough, [watch it on YouTube](https://youtu.be/ayYrKow6v7U).*
 
 | | |
 | --- | --- |
@@ -14,7 +16,6 @@ Place and light an anar, spin a chakri, draw with a phuljhadi, set off a ladi, l
 | **Engine** | Unity 6000.3.26f1, Universal Render Pipeline 17.3 |
 | **XR** | OpenXR 1.19, Meta XR SDK 207.0.1 (passthrough, MR Utility Kit, XR Audio) |
 | **Input** | Hand tracking (pinch and grab with either hand) and Touch controllers |
-| **Version** | 1.0.1, package `com.XRGeek.DiwaliUtsav` |
 
 ## Contents
 
@@ -33,12 +34,7 @@ Place and light an anar, spin a chakri, draw with a phuljhadi, set off a ladi, l
 
 ## Install the app
 
-Every [GitHub release](../../releases/latest) carries two files:
-
-| File | What it is |
-| --- | --- |
-| `DiwaliUtsav.apk` | The Quest build (about 88 MB, Android arm64, Vulkan, API 32 or later) |
-| `DiwaliUtsav-Trailer.mp4` | A 45-second 1080p60 trailer: the app in use in a real courtyard, with captions |
+Download **[DiwaliUtsav.apk](https://github.com/amrutmuj/DiwaliUtsav/releases/latest/download/DiwaliUtsav.apk)** from the [latest release](https://github.com/amrutmuj/DiwaliUtsav/releases/latest) – Quest build (~88 MB, Android arm64, Vulkan, API 32+).
 
 1. Turn on **Developer Mode** for the headset in the Meta Horizon phone app.
 2. Connect the headset by USB-C and allow USB debugging when the headset asks.
@@ -56,19 +52,19 @@ Play standing in a clear space of about 2 × 2 metres. Everything virtual stays 
 
 ### The launch splash
 
-The app opens on a small card in your room: rangoli petals turning slowly around a lit diya, with the original score **A Little Light** playing. Point and pinch, press the controller trigger, or click the diya or **Begin celebration**. The card fades over 0.55 seconds and the celebration starts. The splash appears once per launch; **Reset** later reloads only the celebration.
+The app opens on a small card in your room: rangoli petals turning slowly around a lit diya, with the original score **A Little Light** playing. Point and pinch, press the controller trigger, or click the diya or **Begin celebration**. The card fades and the celebration starts. The splash appears once per launch; **Reset** later reloads only the celebration.
 
 ![Launch splash](Media/splash.jpg)
 
-### The thali
+### The menu
 
 Then there is one thing to learn: **pinch or grab to take, release to place or throw.**
 
-![The thali tray](Media/thali.jpg)
+![The menu](Media/menu.jpg)
 
-- **The thali** waits to your left at waist height, like a tray held out to you, so the view ahead stays clear. Pinch the bar beneath it with either hand to move it anywhere. It remembers where you left it, relative to your body, and follows lazily when you turn or walk.
+- **The menu** waits to your left at waist height, so the view ahead stays clear. Pinch the bar beneath it with either hand to move it anywhere. It remembers where you left it, relative to your body, and follows lazily when you turn or walk.
 - **Three rows** run from what fills the sky, through what sits on the ground, down to what you hold. A soft halo around a miniature's edge marks the next suggestion, and one line of guidance suggests the next step along an eight-step journey.
-- **The side panel** sits beside the fireworks so the two never mix. It holds the **Grand Show** and four quiet controls: music, gentle mode, a sun and night toggle and, set apart at the foot, reset. Reset leaves the tray where you put it.
+- **The side panel** sits beside the fireworks so the two never mix. It holds the **Grand Show** and four quiet controls: music, gentle mode, a sun and night toggle and, set apart at the foot, reset. Reset leaves the menu where you put it.
 
 ### The eighteen items
 
@@ -97,7 +93,7 @@ Then there is one thing to learn: **pinch or grab to take, release to place or t
 - **Place by ray.** Select a miniature from a distance and the full-size cracker appears on the floor. Hold the pinch or grip, aim to move the cracker itself, and release to place it. A landing ring marks the spot, one to two metres ahead and never beside you; a quick pinch places it 1.5 metres ahead. Point at an unlit cracker within two metres to pick it up and move it again.
 - **Grab up close.** Reach an unlit cracker, pinch or grip its body, carry it, and open your hand to let it go. Either hand can take it from the other. A burning or spent cracker cannot be moved. Each cracker type has its own bounce, rocking, friction and landing sound.
 - **Both hands work the same.** Each hand can carry or place its own item, and a soft edge halo marks the region you can grab.
-- **Hold to carry, open to release.** The lighter and phuljhadi stay in your hand while you pinch or grip. Opening the hand drops them under gravity. The lighter goes out the moment you let go and vanishes when it reaches the floor; its tray tile gives it back. A dropped phuljhadi keeps burning where it falls and can be picked up again.
+- **Hold to carry, open to release.** The lighter and phuljhadi stay in your hand while you pinch or grip. Opening the hand drops them under gravity. The lighter goes out the moment you let go and vanishes when it reaches the floor; its menu tile gives it back. A dropped phuljhadi keeps burning where it falls and can be picked up again.
 - **Lighting is physical.** Touch a flame to a fuse, or the phuljhadi to a burning diya. Pinching a fuse from where you stand does the same, for anyone who prefers not to reach. A pinch on a fuse always lights it and never picks the cracker up.
 - **Throw a Hand Popper.** It is the only item that is thrown rather than placed. It flies with your hand's speed and spin and snaps on its first firm landing.
 - **Remove one item.** Hold a pinch on a placed item for two seconds. It hides and pauses, and a **Remove** button appears for six seconds. Pressing it deletes the item at once. Tapping anywhere else, or waiting, brings it back unchanged.
@@ -113,7 +109,7 @@ Without a headset, in the Unity Editor: the mouse is your right hand. Click to p
 - **Families and children.** Supervised children can light a virtual anar or rocket safely, with gentle mode for younger or sensitive players.
 - **Cultural sharing.** Introduce diyas, rangoli and the Indian cracker line-up (anar, chakri, phuljhadi, ladi, sutli bomb) to people far from home or new to the festival.
 - **Events and demos.** A short, self-explanatory showcase for exhibitions, school festivals, office celebrations and Quest demo stations.
-- **A reference for mixed reality developers.** A complete, small Unity 6 project that shows passthrough-first design, floor-only MRUK use, hand interaction without menus, GPU particle effects that fit a mobile headset, and spatial audio. See [How it is built](#how-it-is-built).
+- **A reference for mixed reality developers.** A complete, small Unity 6 project that shows passthrough-first design, floor-only MRUK use, hand interaction without menus in the play space, effects that fit a mobile headset, and spatial audio. See [How it is built](#how-it-is-built).
 
 ## How it is built
 
@@ -122,14 +118,14 @@ Without a headset, in the Unity Editor: the mouse is your right hand. Click to p
 - **The real room is the stage.** Passthrough never goes away. There are no virtual rooms, sky domes or automatic dimming.
 - **Objects and gestures over menus.** One line of guidance at a time, no button panels in the play space.
 - **Realistic fire.** Flames, sparks and smoke are judged from rendered images, not from tests alone.
-- **Honest status.** The app says on the thali if passthrough fails, rather than showing black.
+- **Honest status.** The app says on the menu if passthrough fails, rather than showing black.
 
 ### Scenes and flow
 
 | Scene | Purpose |
 | --- | --- |
 | `Assets/Scenes/SplashScreen.unity` | Launch-only entrance with its own rig, input targets, music and lit diya. No celebration objects. |
-| `Assets/Scenes/DiwaliExperience.unity` | The celebration. Starts immediately with the thali ready. **Reset** reloads only this scene. |
+| `Assets/Scenes/DiwaliExperience.unity` | The celebration. Starts immediately with the menu ready. **Reset** reloads only this scene. |
 
 Build Settings list them in that order. The score and transition cue live on one persistent audio owner, so they survive the scene change without restarting.
 
@@ -145,59 +141,46 @@ All runtime code is in `Assets/Diwali/Runtime` (C#, no third-party gameplay fram
 | Sky | `SkyShow` (shell styles, Grand Show and finale) |
 | Effects | `FlameDriver`, `SparkField`, `EdgeHalo`, `FestivalAmbience` (sun and night) |
 | Audio | `FestivalAudio` (voice pool, spatialisation, ducking, speed-of-sound delay), `FestivalSoundBank`, `FestivalMusic`, `FestivalMusicPlayback` |
-| Interface | `ThaliMenu`, `ThaliTile`, `ThaliHandle`, `ThaliSetting`, `FestivalHint`, `FestivalSplash`, `FestivalSplashArt`, `FestivalSplashButton`, `WelcomeCard`, `FestivalCatalog` |
+| Menu and interface | `ThaliMenu`, `ThaliTile`, `ThaliHandle`, `ThaliSetting` (the menu), `FestivalHint`, `FestivalSplash`, `FestivalSplashArt`, `FestivalSplashButton`, `WelcomeCard`, `FestivalCatalog` |
 
 Cracker prefabs, the catalog (`FestivalCatalog.asset`) and the sound bank (`FestivalSoundBank.asset`) are generated by the editor scene builder from code in `Assets/Diwali/Editor`, then tuned by hand.
 
 ### Mixed reality
 
-- **One floor layer.** The only part of the room the app uses is the floor, out to 10 metres from you (`FloorLayer.radius`). Placement works from the first frame using the floor height from headset tracking. MRUK is asked once to refine that height and is then released, so it builds no room meshes or colliders. A soft ring sweeps across the floor to show it has been found.
+- **One floor layer.** The only part of the room the app uses is the floor, out to 10 metres from you. Placement works from the first frame using the floor height from headset tracking. MRUK is asked once to refine that height and is then released, so it builds no room meshes or colliders. A soft ring sweeps across the floor to show it has been found.
 - **No occlusion.** Nothing is depth-tested against your room, so there are no silhouettes or edge artefacts around hands and furniture. Virtual objects always draw over the room, which also means they can appear in front of real furniture.
 - **Light on your floor.** Every flame drives a matching pool of light on the floor below it, and contact shadows darken the passthrough under each object. That is what stops things looking pasted on.
-- **Sun and night.** The room starts on Sun, exactly as it is. Night dims passthrough a little through the compositor (-0.2 brightness, -0.12 saturation). A blast briefly lifts the room's brightness as one soft pulse.
+- **Sun and night.** The room starts on Sun, exactly as it is. Night dims the passthrough a little. A blast briefly lifts the room's brightness as one soft pulse.
 - **Stable decorations.** Diyas and rangoli are saved with spatial anchors and restored once on launch, but stay in world space during the session, so anchor corrections never make them drift.
-- **Follows the headset.** In the Editor, the rig follows the headset every frame. Press Play with the headset asleep and you get the desktop preview, then mixed reality as soon as you put it on. If the session drops, Play stays alive and reconnects. The app logs `[Diwali] Passthrough is running.` once passthrough is up.
 
 ### Effects
 
-The Quest path uses no post-processing, because it would destroy the passthrough alpha. `DiwaliCommon.hlsl` explains the blending convention.
+Every effect is drawn live, with no post-processing, so the passthrough stays clear.
 
-| Effect | Technique |
+| Effect | What you see |
 | --- | --- |
-| Flame | Ray-marched volume, 10 steps in a small box. Flames are optically thin, so colour comes from path length through the flame: white core, orange edge, blue skirt, clear zone at the wick. It leans when carried. |
-| Fountains, chakri, fuses | `Diwali/Spark Field`: every spark's flight is solved in the vertex shader, so density costs no CPU. Sparks skip off the real floor height. |
-| Phuljhadi | World-space Particle System with forking sub-emitters. The burning point creeps down the rod. |
-| Sky bursts and ground pops | `Diwali/Star Burst`: one draw call per shell, with curved trails. Each star is a trail strip plus a round head. Peony, chrysanthemum, willow, ring, palm, spider, arc and bead patterns, with colours sampled from reference photographs. |
-| Smoke | Soft puffs that erode with age. Bomb and ladi smoke use many small puffs, capped at 30% of the view, so walking into smoke cannot fill the screen. |
-| Bomb | After a 5 to 7 second fuse, the report, a brief flash and the first smoke start on the same frame at the charge. Overlapping billows expand outwards and rise from that point. |
-| Embers | One shared Particle System for every ground report and the bomb: flecks arc, skip on the real floor and cool, in one draw call. |
-| Rocket and shells | The rocket climbs from an upright stand with a fixed 2.5° lean and bursts while still rising, at 18 m. Mortar shells rise directly above their tubes and burst at their apex. A multi-shot box fires strictly one at a time, and nothing of a shell stays in the sky after its burst. Each burst is sized for its height (`BurstStyle.Sized`, about 260 stars). |
-| Chakri | Jet torque accelerates a light disc, a slowly shifting burn imbalance makes it skitter, and angular drag winds it down. |
-| Ladi | A tight herringbone plait that rattles in irregular runs, kicks its neighbours, builds a bank of smoke and leaves red paper on the floor for about 20 seconds. |
-| Butterfly, Hand Popper | Fluttering wings, a spinning lift and coloured jets; a paper pouch that snaps once on its first firm impact. |
-
-`FlameDriver` runs the flame, halo, pool of light and point light from one flicker signal, so shadows move with the flame.
+| Flame | A soft, see-through flame: white core, orange edge, a blue skirt and a clear gap at the wick. It leans when carried, and its glow and the light on the floor flicker with it. |
+| Sparks | Fountains, the chakri and burning fuses throw dense showers of sparks that skip off your real floor. |
+| Phuljhadi | Forking, crackling sparks from a burning point that creeps down the wire. |
+| Sky bursts | Peony, chrysanthemum, willow, ring, palm, spider, arc and bead shells with curved trails, in colours taken from photographs of real fireworks. Each burst is sized for its height. |
+| Smoke | Soft puffs that thin and drift as they age. Smoke is capped at 30% of the view, so walking into it never fills your sight. |
+| Embers | Hot flecks that arc, skip across the floor and cool after every ground report and the bomb. |
 
 ![Anar, diya and chakri](Media/anar.jpg)
 
 ### Sound
 
-- **Spatial audio.** Meta XR Audio HRTF, one position per sound. A source on your left is about 11.5 dB louder in your left ear. Rocket audio separates the 0.8-second motor burn from the coast whistle and follows the moving body. Sky bursts arrive after their flash, delayed by distance at the speed of sound. Large sources such as bursts and finale thunder are given a size, so they read as less of a point.
-- **28 loop voices** with priorities, so a long ladi cannot cut off a fountain. Gentle mode rescales voices that are already playing.
-- **Recorded fireworks.** Laddi, rockets, mortar thumps, whistles, sky bursts, crackle, fuses, butterfly, ring caps and the distant celebration use CC0, CC BY 3.0 and public-domain recordings (see [Credits](#credits-and-licences)). The bomb is a single CC0 firecracker report triggered on the flash frame, with no added layers.
+- **Spatial audio.** Meta XR Audio, with one position per sound. Rocket audio separates the motor burn from the coast whistle and follows the moving body. Sky bursts arrive after their flash, delayed by distance at the speed of sound. Large sources such as bursts and finale thunder are given a size, so they read as less of a point.
+- **28 loop voices** with priorities, so a long ladi cannot cut off a fountain.
+- **Recorded fireworks.** Laddi, rockets, mortar thumps, whistles, sky bursts, crackle, fuses, butterfly, ring caps and the distant celebration use CC0, CC BY 3.0 and public-domain recordings (see [Credits](#credits-and-licences)). The bomb is a single CC0 firecracker report, timed to its flash.
 - **Original sounds.** Anar, chakri, phuljhadi, lighter, ignition, flame and interface sounds are original to the project.
-- **Music.** **A Little Light** is an original 120-second stereo score at 72 BPM: flute-like phrases, plucked strings, a drone and quiet percussion. It plays on the splash at a source gain of 0.12 and fades out on **Begin**, with one soft confirmation sound. Gentle mode halves it. Music pauses when the app is suspended.
+- **Music.** **A Little Light** is an original two-minute stereo score: flute-like phrases, plucked strings, a drone and quiet percussion. It plays on the splash and fades out on **Begin**, with one soft confirmation sound. Gentle mode halves it.
 
 ### Performance
 
-- No post-processing, MSAA 4×, linear colour, Vulkan, single-pass instanced stereo, IL2CPP on arm64.
-- Fountains, sky bursts and trails (about 10,000 stars and sparks at peak) are solved on the GPU in vertex shaders, with no CPU particle cost.
-- `FestivalRig.TuneForQuest` raises CPU and GPU clock levels and turns on dynamic foveated rendering.
-- `FestivalWarmup` draws every effect once as a speck when the scene opens, so the first blast does not pay to build GPU pipelines.
-- Smoke is the main fill cost on Quest. At 1.5 m the bomb's peak is now 5.5 to 6.8 full-eye layers of blended smoke (down from 18.4); the big ladi peaks at 3.5 to 3.9 (from 6.0).
-- `[Perf]` lines report start-up milestones, frame rate and hitches every five seconds in any build. Read them in the Console over Link, or with `adb logcat -s Unity` on the headset.
+![Performance: 71.7 fps average and 63.8 fps lowest over Quest Link; bomb smoke cut from 18.4 to 5.5–6.8 full-screen layers and big ladi from 6.0 to 3.5–3.9](Media/performance.png)
 
-Measured over Quest Link with the headset worn, on 7 November 2026: 71.7 fps on average over about 25 minutes, with the lowest five-second window at 63.8 fps. That was a build before the latest interaction changes. Standalone Quest frame times have not been measured yet.
+To watch it yourself, `[Perf]` lines report frame rate and hitches every five seconds, in the Console over Link or with `adb logcat -s Unity` on the headset.
 
 ## Build and run from source
 
@@ -212,8 +195,10 @@ All packages, including the Meta XR SDK, come from the Unity registry and are re
 
 ### Open the project
 
+The source is at **[github.com/amrutmuj/DiwaliUtsav](https://github.com/amrutmuj/DiwaliUtsav)**. Clone it, or use **Code → Download ZIP** there:
+
 ```bash
-git clone <this repository's URL>
+git clone https://github.com/amrutmuj/DiwaliUtsav.git
 ```
 
 1. In Unity Hub, choose **Add → Add project from disk** and select the cloned folder. Open it with 6000.3.26f1.
@@ -226,13 +211,13 @@ git clone <this repository's URL>
 2. Connect the headset with Link and put it on.
 3. Press **Play** in Unity.
 
-There is no checkbox to tick and no need to build an APK to see a change. Unity always starts XR from the *Standalone* profile, even with Android as the active build target, so `DiwaliLinkSetup` keeps that profile correct: it runs on every script reload and just before Play, and repairs anything that has drifted. **Initialize XR on Startup** must stay on in the Standalone XR settings. Automated validation uses a one-off in-memory override and never saves it off.
+No APK is needed to see a change. `DiwaliLinkSetup` keeps the Standalone XR profile ready for Link on every script reload and before Play; leave **Initialize XR on Startup** on in the Standalone XR settings.
 
 With no headset connected, Play opens the desktop preview, a stand-in room with mouse controls (see [How you interact](#how-you-interact)).
 
 ### Build the APK
 
-Choose **Diwali → Build Quest APK**. It writes `Builds/DiwaliUtsav.apk` and a summary to `Verification/android-build.txt`. The build applies the Quest player settings (IL2CPP, arm64, Vulkan, minimum API 32, linear colour, single-pass instanced stereo) and enables passthrough, anchors, scene and hand tracking. It never changes the company, product name, package id or icon.
+Choose **Diwali → Build Quest APK**. It writes `Builds/DiwaliUtsav.apk` and a summary to `Verification/android-build.txt`, and applies the Quest player settings and the passthrough, anchor, scene and hand-tracking features.
 
 From the command line, with the Editor closed:
 
@@ -244,7 +229,7 @@ Then install it as described in [Install the app](#install-the-app).
 
 ## Testing and editor tools
 
-Everything under the **Diwali** menu runs in the Editor without a headset. Results are written to `Verification/`, which is ignored by Git.
+Everything under the **Diwali** menu runs in the Editor without a headset. Results are written to `Verification/`.
 
 | Menu item | What it does |
 | --- | --- |
@@ -284,7 +269,7 @@ While the Editor is open, `DiwaliWorkbench` polls `Tools/diwali-command.txt` abo
 ```
 Assets/
   Diwali/
-    Runtime/        Session, rig, placement, thali, audio, ambience, sky show, one script per cracker type
+    Runtime/        Session, rig, placement, menu, audio, ambience, sky show, one script per cracker type
     Shaders/        Flame, spark field, star burst, smoke, glow, floor light, edge halo, splash UI
     Editor/         Scene builder, mesh and VFX kits, Link setup, validation, cinematic capture, command bridge
     Prefabs/        One prefab per cracker, plus embers
@@ -303,14 +288,12 @@ ThirdPartySources/Audio/edits.json      How each recorded clip was cut from its 
 Media/              Images used in this README
 ```
 
-Folders that tools create and Git ignores: `Library/`, `Logs/`, `Temp/`, `UserSettings/`, `Builds/` (the APK and trailer), `Recordings/` (cinematic captures) and `Verification/` (validation output).
-
 ## Media and the trailer
 
-The trailer and the images in `Media/` combine two sources:
+The trailer at the top of this page and the images in `Media/` combine two sources:
 
 - **Real footage.** A locked-off phone camera filmed the app being played in a courtyard at night.
-- **In-engine captures.** **Diwali → Cinematics** uses Unity Recorder to capture the effects at 1920 × 1080 and 60 fps on a clear black background, with the desktop room and the thali hidden.
+- **In-engine captures.** **Diwali → Cinematics** uses Unity Recorder to capture the effects at 1920 × 1080 and 60 fps on a clear black background, with the desktop room and the menu hidden.
 
 The effects were screen-blended onto the real footage and placed where they would appear in the headset: fountains on the pavement in front of the player, bursts over the trees. Captions and cards were added, and the soundtrack was mixed from the effects' own sounds, the CC0 bomb report and an original instrumental, *Diya Afterglow*. In the trailer, the menu and splash card face the camera so they can be read, whereas in the headset they face the player. For exactly what the player sees, watch the [first-person walkthrough](https://youtu.be/ayYrKow6v7U).
 
@@ -322,8 +305,8 @@ To make new captures, choose **Diwali → Cinematics → Record Complete Cracker
 
 - The automated walk-through passes with no runtime errors, and so do the splash, placement, audio and menu reviews.
 - Played in a worn Quest 3 over Link: passthrough runs and the frame rate holds near 72 fps (see [Performance](#performance)).
-- The APK in the v1.0.1 release builds with 0 errors.
-- Spatial audio is measured from the mixer output: a source on the left leads in the left ear by about 11.5 dB.
+- The release APK builds with no errors.
+- Spatial audio, measured from the mixer output: a source on your left is about 11.5 dB louder in your left ear.
 
 **Not yet verified, or not working yet:**
 
@@ -331,7 +314,6 @@ To make new captures, choose **Diwali → Cinematics → Record Complete Cracker
 - **Feel in the hand.** Hand input is simulated in the Editor checks. Catching thrown items, release timing and grab region sizes are calculated, not felt, and need a pass with real hands.
 - **Room acoustics are not audible.** The Meta XR Audio room model is configured, but the project has no "Meta XR Audio Reflection" mixer effect, so no reflections or reverb reach the mix. Sounds were balanced dry. Turning the room on would change every sound, so it is a deliberate open decision.
 - **The Music control** has no audible effect after Begin, because the score already stops then. The setting is remembered for the splash.
-- **Virtual objects draw over real furniture**, because there is no depth occlusion (by design, see [Mixed reality](#mixed-reality)).
 
 **Safety.** Flashes are single soft pulses, never strobes, and gentle mode softens them further. Please still review the bomb and the Grand Show with anyone sensitive to flashing light before wider use. Supervise children. Keep your play space clear, because the experience invites you to step and crouch.
 
@@ -370,7 +352,6 @@ The recordings were trimmed, converted to mono 48 kHz, filtered, faded and level
 
 - Don't run **Build Mixed Reality Scene** on work you want to keep (see [Testing and editor tools](#testing-and-editor-tools)).
 - Judge visual changes from rendered images or a headset, not only from passing checks, and say plainly what has not been tried in a headset.
-- Keep `Initialize XR on Startup` on in the Standalone XR settings; Link play depends on it.
 
 ## Changelog
 
@@ -379,16 +360,15 @@ The recordings were trimmed, converted to mono 48 kHz, filtered, faded and level
 - The bomb uses a CC0 recorded firecracker report.
 - Smoke is built from many small puffs, with a size cap: the bomb peaks at a third of its earlier fill.
 - One shared embers system serves every ground report.
-- Sky bursts were rebuilt from four reference photographs and sized to their height: rocket at 18 m, boxes at 20 to 22 m.
-- The night sky dome was removed in favour of a sun and night toggle.
+- Sky bursts were rebuilt from reference photographs and sized to their height.
+- A sun and night toggle replaces the night sky dome.
 - Remove deletes an item at once, with no undo.
 - Dynamic foveation and effect warm-up were added.
-- **Diwali → Build Quest APK** now writes `Builds/DiwaliUtsav.apk`.
 
 **1.0.0**: first release.
 - Separate launch splash and celebration scenes.
 - Brand identity, app icon and the stereo score *A Little Light*.
-- Eighteen items on a two-panel thali.
+- Eighteen items on a two-panel menu.
 - Recorded firework audio, ballistic flight per cracker, and either-hand grab regions.
 
 ---
