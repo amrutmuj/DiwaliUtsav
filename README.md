@@ -6,7 +6,7 @@
 
 Place and light an anar, spin a chakri, draw with a phuljhadi, set off a ladi, launch a rocket and finish with a Grand Show. Everything works with your hands: pinch, grab, place, light, celebrate.
 
-TRAILER_VIDEO_URL
+https://github.com/amrutmuj/DiwaliUtsav/releases/download/v1.0.1/DiwaliUtsav-Trailer-web.mp4
 
 *The trailer: Diwali Utsav played in a real courtyard. For the full 3-minute first-person walkthrough, [watch it on YouTube](https://youtu.be/ayYrKow6v7U).*
 
