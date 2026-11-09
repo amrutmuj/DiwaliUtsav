@@ -22,4 +22,6 @@
   <uses-permission android:name="com.oculus.permission.USE_ANCHOR_API" />
   <uses-feature android:name="com.oculus.feature.PASSTHROUGH" android:required="false" />
   <uses-permission android:name="com.oculus.permission.USE_SCENE" />
+  <!-- This app plays audio but does not use microphone input. -->
+  <uses-permission android:name="android.permission.RECORD_AUDIO" tools:node="remove" />
 </manifest>
